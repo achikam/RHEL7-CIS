@@ -214,9 +214,9 @@ rhel7cis_rule_3_5_3_3_6: false
 
 # Section 4 rules
 # Section 4 is Logging and Auditing (Configure System Accounting (auditd) and Configure Logging)
-rhel7cis_rule_4_1_1_1: true
-rhel7cis_rule_4_1_1_2: true
-rhel7cis_rule_4_1_1_3: true
+rhel7cis_rule_4_1_1_1: false
+rhel7cis_rule_4_1_1_2: false
+rhel7cis_rule_4_1_1_3: false
 rhel7cis_rule_4_1_2_1: true
 rhel7cis_rule_4_1_2_2: true
 rhel7cis_rule_4_1_2_3: true
@@ -236,7 +236,7 @@ rhel7cis_rule_4_1_14: true
 rhel7cis_rule_4_1_15: true
 rhel7cis_rule_4_1_16: true
 rhel7cis_rule_4_1_17: true
-rhel7cis_rule_4_2_1_1: false
+rhel7cis_rule_4_2_1_1: true
 rhel7cis_rule_4_2_1_2: true
 rhel7cis_rule_4_2_1_3: true
 rhel7cis_rule_4_2_1_4: false
