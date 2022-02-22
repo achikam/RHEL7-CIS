@@ -36,6 +36,7 @@
       - level2
       - patch
       - rule_6.1.1
+      - section6
 
 - name: "6.1.2 | L1 | PATCH | Ensure permissions on /etc/passwd are configured"
   file:
@@ -49,6 +50,7 @@
       - level1
       - patch
       - rule_6.1.2
+      - section6
 
 - name: "6.1.3 | L1 | PATCH | Ensure permissions on /etc/passwd- are configured"
   file:
@@ -62,6 +64,7 @@
       - level1
       - patch
       - rule_6.1.3
+      - section6
 
 - name: "6.1.4 | L1 | PATCH | Ensure permissions on /etc/shadow are configured"
   file:
@@ -75,6 +78,7 @@
       - level1
       - patch
       - rule_6.1.4
+      - section6
 
 - name: "6.1.5 | L1 | PATCH | Ensure permissions on /etc/shadow- are configured"
   file:
@@ -88,6 +92,7 @@
       - level1
       - patch
       - rule_6.1.5
+      - section6
 
 - name: "6.1.6 | L1 | PATCH | Ensure permissions on /etc/gshadow- are configured"
   file:
@@ -101,6 +106,7 @@
       - level1
       - patch
       - rule_6.1.6
+      - section6
 
 - name: "6.1.7 | L1 | PATCH | Ensure permissions on /etc/gshadow are configured"
   file:
@@ -114,6 +120,7 @@
       - level1
       - patch
       - rule_6.1.7
+      - section6
 
 - name: "6.1.8 | L1 | PATCH | Ensure permissions on /etc/group are configured"
   file:
@@ -127,6 +134,7 @@
       - level1
       - patch
       - rule_6.1.8
+      - section6
 
 - name: "6.1.9 | L1 | PATCH | Ensure permissions on /etc/group- are configured"
   file:
@@ -140,6 +148,7 @@
       - level1
       - patch
       - rule_6.1.9
+      - section6
 
 - name: "6.1.10 | L1 | PATCH | Ensure no world writable files exist"
   block:
@@ -172,6 +181,7 @@
       - level1
       - patch
       - rule_6.1.10
+      - section6
 
 - name: "6.1.11 | L1 | PATCH | Ensure no unowned files or directories exist"
   block:
@@ -199,6 +209,7 @@
       - level1
       - patch
       - rule_6.1.11
+      - section6
 
 - name: "6.1.12 | L1 | PATCH | Ensure no ungrouped files or directories exist"
   block:
@@ -224,6 +235,7 @@
       - level1
       - patch
       - rule_6.1.12
+      - section6
 
 - name: "6.1.13 | L1 | PATCH | Audit SUID executables"
   block:
@@ -256,6 +268,7 @@
       - level1
       - patch
       - rule_6.1.13
+      - section6
 
 - name: "6.1.14 | L1 | PATCH | Audit SGID executables"
   block:
@@ -288,3 +301,4 @@
       - level1
       - patch
       - rule_6.1.14
+      - section6
