@@ -391,7 +391,6 @@
       - level1
       - patch
       - rule_6.2.14
-      - section6
 
 - name: "6.2.15 | L1 | PATCH | Ensure no users have .forward files"
   file:
@@ -404,7 +403,6 @@
       - level1
       - patch
       - rule_6.2.15
-      - section6
 
 - name: "6.2.16 | L1 | PATCH | Ensure no users have .netrc files"
   file:
@@ -417,7 +415,6 @@
       - level1
       - patch
       - rule_6.2.16
-      - section6
 
 - name: "6.2.17 | L1 | PATCH | Ensure no users have .rhosts files"
   file:
@@ -430,4 +427,3 @@
       - level1
       - patch
       - rule_6.2.17
-      - section6
